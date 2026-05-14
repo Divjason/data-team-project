@@ -14,6 +14,7 @@ CREATE TABLE customers (
 -- PM 기본 조회 쿼리
 SELECT *
 <<<<<<< HEAD
+<<<<<<< HEAD
 FROM customers;
 =======
 FROM customers;
@@ -30,3 +31,13 @@ SELECT
 FROM customers
 GROUP BY age_group;
 >>>>>>> origin/A
+=======
+FROM customers;
+
+-- B: 성별 고객 수 분석
+SELECT 
+    gender,
+    COUNT(*) AS customer_count
+FROM customers
+GROUP BY gender;
+>>>>>>> origin/B
